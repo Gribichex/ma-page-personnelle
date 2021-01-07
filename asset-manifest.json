@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.298da6fa.chunk.css",
-    "main.js": "/static/js/main.4479c91a.chunk.js",
-    "main.js.map": "/static/js/main.4479c91a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.85d9bd9e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.85d9bd9e.js.map",
-    "static/js/2.984fde16.chunk.js": "/static/js/2.984fde16.chunk.js",
-    "static/js/2.984fde16.chunk.js.map": "/static/js/2.984fde16.chunk.js.map",
-    "static/js/3.07200661.chunk.js": "/static/js/3.07200661.chunk.js",
-    "static/js/3.07200661.chunk.js.map": "/static/js/3.07200661.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.298da6fa.chunk.css.map": "/static/css/main.298da6fa.chunk.css.map",
-    "static/js/2.984fde16.chunk.js.LICENSE.txt": "/static/js/2.984fde16.chunk.js.LICENSE.txt",
-    "static/media/VID_20210107_125754.a81d0e9d.mp4": "/static/media/VID_20210107_125754.a81d0e9d.mp4",
-    "static/media/styles.css": "/static/media/fort-lalatte.62b0c9e7.jpg"
+    "main.css": "/ma-page-personnelle/static/css/main.22953f05.chunk.css",
+    "main.js": "/ma-page-personnelle/static/js/main.4479c91a.chunk.js",
+    "main.js.map": "/ma-page-personnelle/static/js/main.4479c91a.chunk.js.map",
+    "runtime-main.js": "/ma-page-personnelle/static/js/runtime-main.dc175bcb.js",
+    "runtime-main.js.map": "/ma-page-personnelle/static/js/runtime-main.dc175bcb.js.map",
+    "static/js/2.984fde16.chunk.js": "/ma-page-personnelle/static/js/2.984fde16.chunk.js",
+    "static/js/2.984fde16.chunk.js.map": "/ma-page-personnelle/static/js/2.984fde16.chunk.js.map",
+    "static/js/3.07200661.chunk.js": "/ma-page-personnelle/static/js/3.07200661.chunk.js",
+    "static/js/3.07200661.chunk.js.map": "/ma-page-personnelle/static/js/3.07200661.chunk.js.map",
+    "index.html": "/ma-page-personnelle/index.html",
+    "static/css/main.22953f05.chunk.css.map": "/ma-page-personnelle/static/css/main.22953f05.chunk.css.map",
+    "static/js/2.984fde16.chunk.js.LICENSE.txt": "/ma-page-personnelle/static/js/2.984fde16.chunk.js.LICENSE.txt",
+    "static/media/VID_20210107_125754.a81d0e9d.mp4": "/ma-page-personnelle/static/media/VID_20210107_125754.a81d0e9d.mp4",
+    "static/media/styles.css": "/ma-page-personnelle/static/media/fort-lalatte.62b0c9e7.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.85d9bd9e.js",
+    "static/js/runtime-main.dc175bcb.js",
     "static/js/2.984fde16.chunk.js",
-    "static/css/main.298da6fa.chunk.css",
+    "static/css/main.22953f05.chunk.css",
     "static/js/main.4479c91a.chunk.js"
   ]
 }
