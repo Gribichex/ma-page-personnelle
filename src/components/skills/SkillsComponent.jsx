@@ -1,4 +1,7 @@
 import { useTranslation } from "react-i18next";
+import ux_png from "../../medias/icons/ux.png"
+import guitar_png from "../../medias/icons/guitar.png"
+import signal_png from "../../medias/icons/wireless.png"
 
 function SkillsComponent() {
   const { t } = useTranslation();
@@ -9,7 +12,7 @@ function SkillsComponent() {
         <div className="skill-row">
           <img
             className="skill-image"
-            src="images/ux.png"
+            src={ux_png}
             alt="front-end"
           />
           <div className="skill-text">
@@ -32,13 +35,13 @@ function SkillsComponent() {
           </div>
           <img
             className="skill-image"
-            src="images/wireless.png"
+            src={signal_png}
             alt="signal"
           />
         </div>
 
         <div className="skill-row">
-          <img className="skill-image" src="images/guitar.png" alt="guitar" />
+          <img className="skill-image" src={guitar_png} alt="guitar" />
           <div className="skill-text">
             <h3>{t("Guitar harmony Enthusiast")}</h3>
             <p>

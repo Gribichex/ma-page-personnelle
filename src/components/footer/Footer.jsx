@@ -1,3 +1,5 @@
+import linkedin_png from "../../medias/icons/linkedin.png"
+
 function Footer() {
   return (
     <div className="bottom-container">
@@ -5,7 +7,7 @@ function Footer() {
         className="footer-link"
         href="https://www.linkedin.com/in/julien-petitpierre-21929372"
       >
-        <img className="linkedin" src="images/linkedin.png" alt="" />
+        <img className="linkedin" src={linkedin_png} alt="" />
       </a>
       <p className="copyright">© 2021 Julien PETITPIERRE.</p>
       <span style={{ margin: "0 20px" }}>

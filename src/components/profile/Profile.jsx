@@ -1,11 +1,14 @@
 import { useTranslation } from "react-i18next";
+import profile_png from "../../medias/images/portrait.png"
+
+
 function Profile() {
   const { t } = useTranslation();
   return (
     <div className="profile container-fluid">
       <img
         className="portrait d-block mx-auto"
-        src="images/portrait.png"
+        src={profile_png}
         alt="Portrait"
       />
       <h2 className="text-center">{t("Hello.")}</h2>

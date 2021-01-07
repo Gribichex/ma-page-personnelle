@@ -45,7 +45,7 @@ a {
 }
 
 .top-title {
-  font-size: calc(5vw + 5rem);
+  font-size: calc(4vw + 5rem);
   color: white;
 }
 
@@ -106,8 +106,8 @@ a {
 }
 
 .intro-logo {
-  width: 200px;
-  margin: 0 50px;
+  width: calc(4vw + 5rem);
+  margin: 0 2vw;
   margin-top: -0.5ex;
   vertical-align: middle;
 }
@@ -117,8 +117,9 @@ a {
 }
 
 .portrait {
-  width: 400px;
-  margin: 100px auto 100px auto;
+  width: 40vw;
+  max-width: 400px;
+  margin: 50px auto 50px auto;
 }
 
 .logo {
@@ -148,11 +149,12 @@ a {
 }
 
 .contact-me {
-  margin-top: 50px;
+  margin: 50px 20px 0;
 }
 
 .bottom-container {
   background-color: #66bfbf;
+  padding: 0 20px;
 }
 
 .skills {
@@ -162,7 +164,7 @@ a {
 
 .skill-row {
   
-  margin: 100px auto;
+  margin: 50px 20px;
   text-align: left;
   display: flex;
   justify-content:space-around;
@@ -178,7 +180,7 @@ a {
 }
 
 .skill-text{
-  max-width: 600px;
+  max-width: 800px;
   margin: 50px 0;
 }
 
