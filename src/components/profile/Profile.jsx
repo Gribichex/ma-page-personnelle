@@ -5,14 +5,14 @@ import profile_png from "../../medias/images/portrait.png"
 function Profile() {
   const { t } = useTranslation();
   return (
-    <div className="profile container-fluid">
+    <div className="profile">
       <img
-        className="portrait d-block mx-auto"
+        className="portrait"
         src={profile_png}
         alt="Portrait"
       />
-      <h2 className="text-center">{t("Hello.")}</h2>
-      <p className="intro text-center">
+      <h2>{t("Hello.")}</h2>
+      <p className="intro">
         {t(
           "I'm an signal processing engineer who decided to dig in web development"
         )}

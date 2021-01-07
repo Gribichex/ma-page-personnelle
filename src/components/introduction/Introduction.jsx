@@ -11,9 +11,9 @@ function Introduction() {
           <video autoPlay id="video" src={video} loop muted ></video>
           <div id="videoMessage" className="styling">
             <h1 className="top-title">{t("I'm Julien")}<img className="intro-logo" src={wave_svg} alt="wave" /></h1>
-            <h2 className="top-subtitle">
+            <h3 className="top-subtitle">
             {t("an R&D engineer and a web-developpment enthousiast.")}
-            </h2>
+            </h3>
           </div>
         </div>
       </div>

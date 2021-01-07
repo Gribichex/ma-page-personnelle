@@ -11,17 +11,17 @@ import Transition from "./components/common/Transition";
 function App() {
   return (
     <div className="App">
-
-        <Fade>
-          <Introduction />
-          <Profile />
-          <Transition nb={"first"}/>
-          <SkillsComponent />
-          <Transition nb={"second"}/>
-          <Contact />
-          <Footer />
-        </Fade>
-
+      <Fade>
+        <Introduction />
+        <Profile />
+        <Transition nb={"first"} />
+        <SkillsComponent />
+        <Transition nb={"second"} />
+        <PortfolioComponent />
+        <Transition nb={"third"} />
+        <Contact />
+        <Footer />
+      </Fade>
     </div>
   );
 }

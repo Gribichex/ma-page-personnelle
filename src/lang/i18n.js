@@ -10,7 +10,7 @@ i18n
     resources: {
       en: {
         translations: {
-          "I'm Julien": "I'm Julien",
+          "I'm Julien": "Fréhel Web Coding",
           "Hello.": "Hello.",
           "an R&D engineer and a web-developpment enthousiast.":
             "an R&D engineer and a web-developpment enthousiast.",
@@ -26,8 +26,14 @@ i18n
           "Guitar harmony Enthusiast": "Guitar harmony Enthusiast",
           "I'm passionated by learning old-fashioned guitar styles, especially blues, and applying them to push further my guitar practising skills":
             "I'm passionated by learning old-fashioned guitar styles, especially blues, and applying them to push further my guitar practising skills",
+          "My Portfolio.": "My Portfolio.",
+          "Leon Hamonet Assocation website": "Leon Hamonet Assocation website",
+          "Website dedicated to the famous painter of French brittany coast":
+            "Website dedicated to the famous painter of French brittany coast",
+          "Teleworking and holiday managing app for my colleagues":
+            "Teleworking and holiday managing app for my colleagues",
           "Get In Touch": "Get In Touch",
-          "You're a passionate like me ?":"You're a passionate like me ?",
+          "You're a passionate like me ?": "You're a passionate like me ?",
           "You like to code websites while playing a guitar serenade to your love ? Let's play together !":
             "You like to code websites while playing a guitar serenade to your love ? Let's play together !",
           "CONTACT ME": "CONTACT ME",
@@ -35,10 +41,10 @@ i18n
       },
       fre: {
         translations: {
-          "I'm Julien": "Je suis Julien",
-          "Hello.": "Bonjour.",
+          "I'm Julien": "Fréhel Web Coding",
+          "Hello.": "Bienvenue !",
           "an R&D engineer and a web-developpment enthousiast.":
-            "un ingénieur en R&D curieux du développement Web",
+            "Une micro-entreprise web qui n'a pas peur de se mouiller pour vous !",
           "I'm an signal processing engineer who decided to dig in web development":
             "Je suis un ingénieur en traitement du signal qui a décidé de s'amuser avec le développement Web",
           "My Skills.": "Mes compétences.",
@@ -51,10 +57,18 @@ i18n
           "Guitar harmony Enthusiast": "Appétit pour la bonne musique",
           "I'm passionated by learning old-fashioned guitar styles, especially blues, and applying them to push further my guitar practising skills":
             "Je suis actuellement passionné par l'apprentissage de la guitare et notamment de vieux styles de musique comme le blues",
-            "Get In Touch": "Prendre contact",
-            "You're a passionate like me ?":"Vous êtes un passionné comme moi ?",
+            "My Portfolio.": "Mon Portfolio.",
+          "Leon Hamonet Assocation website": "Le site de l'association Leon Hamonet",
+          "Website dedicated to the famous painter of French brittany coast":
+            "Website dédié au fameux peintre de la côte d'émeraude qui a su peindre avec délicatesse les cotes colorées d'Erquy",
+            "Teleworking app":"Teletrav-app",
+          "Teleworking and holiday managing app for my colleagues":
+            "Application de gestion de tele-travail et de prise de congé pour mes collègues",
+          "Get In Touch": "Prendre contact",
+          "You're a passionate like me ?":
+            "Vous êtes un touche à tout comme moi ?",
           "You like to code websites while playing a guitar serenade to your love ? Let's play together !":
-            "Vous aimez coder des sites ou vous avez besoin d'un coup de main ? ou vous voulez jouer une sérénade a votre amour secret ? !",
+            "Vous avez besoin d'un coup de main ? ",
           "CONTACT ME": "CONTACTEZ-MOI",
         },
       },
