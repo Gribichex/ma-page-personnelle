@@ -17,7 +17,7 @@ function PortfolioComponent() {
           <img src={hamonet_desktop} alt="hamonet_desktop" />
           <p className="legend" style={{ backgroundColor: "cadetblue" }}>
             <a
-              style={{ color: "white", fontSize: "2rem" }}
+               style={{ color: "white", fontSize: "calc(0.5rem + 1vw)" }}
               href="https://leonhamonet.netlify.app/"
             >
               {t(
@@ -30,7 +30,7 @@ function PortfolioComponent() {
           <img src={teleworking_desktop} alt="teleworking_desktop" />
           <p className="legend" style={{ backgroundColor: "cadetblue" }}>
             <a
-              style={{ color: "white", fontSize: "2rem" }}
+              style={{ color: "white", fontSize: "calc(0.5rem + 1vw)" }}
               href="https://teletravail-demo.herokuapp.com/"
             >
               {t("Teleworking and holiday managing app for my colleagues")}{" "}

@@ -1,4 +1,5 @@
-import video from "../../medias/videos/VID_20210107_125754.mp4";
+import video from "../../medias/videos/frehel.mp4";
+import thumb from "../../medias/videos/apercu.jpg";
 import wave_svg from "../../medias/icons/wave.svg";
 import { useTranslation } from "react-i18next";
 import FR_svg from "../../medias/icons/france.svg"
@@ -12,7 +13,7 @@ function Introduction() {
   return (
     <div id="videowrapper" className="top-container">
       <div id="fullScreenDiv">
-        <video autoPlay id="video" src={video} loop muted></video>
+        <video poster={thumb} autoPlay id="video" src={video} loop muted></video>
         <div id="videoMessage" className="styling">
           <button
             style={{ position: "absolute", top: "10px", left: "40px"}}

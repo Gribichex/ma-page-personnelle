@@ -36,7 +36,7 @@ i18n
           "You're a passionate like me ?": "You're a passionate like me ?",
           "You like to code websites while playing a guitar serenade to your love ? Let's play together !":
             "You like to code websites while playing a guitar serenade to your love ? Let's play together !",
-          "CONTACT ME": "CONTACT ME",
+          "CONTACT ME": "Mail me",
         },
       },
       fre: {
@@ -69,7 +69,7 @@ i18n
             "Vous êtes un touche à tout comme moi ?",
           "You like to code websites while playing a guitar serenade to your love ? Let's play together !":
             "Vous avez besoin d'un coup de main ? ",
-          "CONTACT ME": "CONTACTEZ-MOI",
+          "CONTACT ME": "Me contacter",
         },
       },
     },

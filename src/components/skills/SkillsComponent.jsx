@@ -3,10 +3,14 @@ import ux_png from "../../medias/icons/ux.png"
 import guitar_png from "../../medias/icons/guitar.png"
 import signal_png from "../../medias/icons/wireless.png"
 
+
 function SkillsComponent() {
   const { t } = useTranslation();
   return (
     <div className="middle-container">
+
+
+
       <div className="skills">
         <h2>{t("My Skills.")}</h2>
         <div className="skill-row">
