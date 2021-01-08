@@ -1,6 +1,6 @@
 {
-  "name": "ma-page-personelle",
   "homepage": "https://Gribichex.github.io/ma-page-personnelle",
+  "name": "ma-page-personnelle",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,10 +11,11 @@
     "i18next-browser-languagedetector": "^6.0.1",
     "react": "^17.0.1",
     "react-awesome-reveal": "^3.5.1",
+    "react-awesome-slider": "^4.1.0",
     "react-dom": "^17.0.1",
     "react-i18next": "^11.8.5",
-    "react-localization": "^1.0.15",
-    "react-scripts": "4.0.1",
+    "react-responsive-carousel": "^3.2.11",
+    "react-scripts": "^4.0.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {

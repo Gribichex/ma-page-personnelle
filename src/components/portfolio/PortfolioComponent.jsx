@@ -4,11 +4,38 @@ import teleworking_mobile from "../../medias/images/teleworking_mobile.png";
 import teleworking_desktop from "../../medias/images/teleworking_desktop.png";
 import { useTranslation } from "react-i18next";
 
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
+
 function PortfolioComponent() {
   const { t } = useTranslation();
+
   return (
-    <div className="middle-container">
-      <div className="portfolio">
+    <div className="portfolio">
+      <h2>{t("My Portfolio.")}</h2>
+      <Carousel>
+        <div>
+          <img src={hamonet_desktop} alt="hamonet_desktop" />
+          <p
+            className="legend"
+            style={{ backgroundColor: "cadetblue"}}
+          >
+            <a style={{ color: "white", fontSize:"2rem" }} href="https://leonhamonet.netlify.app/">
+              {t(
+                "Website dedicated to the famous painter of French brittany coast"
+              )}
+            </a>
+          </p>
+        </div>
+        <div>
+          <img src={teleworking_desktop} alt="teleworking_desktop" />
+          <p className="legend" style={{ backgroundColor: "cadetblue" }}>
+          <a style={{ color: "white", fontSize:"2rem" }} href="https://teletravail-demo.herokuapp.com/">
+            {t("Teleworking and holiday managing app for my colleagues")} </a>
+          </p>
+        </div>
+      </Carousel>
+      {/**  <div className="portfolio">
         <h2>{t("My Portfolio.")}</h2>
 
         <div className="portfolio-row">
@@ -58,7 +85,7 @@ function PortfolioComponent() {
         </div>
 
 
-      </div>
+      </div>*/}
     </div>
   );
 }
