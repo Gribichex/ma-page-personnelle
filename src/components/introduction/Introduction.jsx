@@ -13,7 +13,7 @@ function Introduction() {
   return (
     <div id="videowrapper" className="top-container">
       <div id="fullScreenDiv">
-        <video poster={thumb} autoPlay id="video" src={video} loop muted></video>
+        <video poster={thumb}  autoPlay id="video" src={video} loop muted></video>
         <div id="videoMessage" className="styling">
           <button
             style={{ position: "absolute", top: "10px", left: "40px"}}

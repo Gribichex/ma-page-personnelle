@@ -27,15 +27,16 @@ i18n
           "I'm passionated by learning old-fashioned guitar styles, especially blues, and applying them to push further my guitar practising skills":
             "I'm passionated by learning old-fashioned guitar styles, especially blues, and applying them to push further my guitar practising skills",
           "My Portfolio.": "My Portfolio.",
-          "Leon Hamonet Assocation website": "Leon Hamonet Assocation website",
-          "Website dedicated to the famous painter of French brittany coast":
-            "Website dedicated to the famous painter of French brittany coast",
-          "Teleworking and holiday managing app for my colleagues":
-            "Teleworking and holiday managing app for my colleagues",
+          "Real Websites": "Real Websites",
+          "Theses are real projects for associations and colleagues. These projects involves modern Front-End technologies (React.js,Gastby.js,GraphQL) as well as some Back-end modules and concepts (Express.js,Passport.js,RESTful APIs,)":
+            "Theses are real projects for associations and colleagues. These projects involves modern Front-End technologies (React.js,Gastby.js,GraphQL) as well as some Back-end modules and concepts (Express.js,Passport.js,RESTful APIs,)",
+          "Draft Integration": "Draft Integration",
+          "Theses are various Front-End trainings I use to realized during my formation and skills assessments using frontendmentor.io":
+            "Theses are various Front-End trainings I use to realized during my formation and skills assessments using frontendmentor.io",
           "Get In Touch": "Get In Touch",
-          "You're a passionate like me ?": "You're a passionate like me ?",
+          "You're a passionate like me ?": "You have something better to do than coding yourself ?",
           "You like to code websites while playing a guitar serenade to your love ? Let's play together !":
-            "You like to code websites while playing a guitar serenade to your love ? Let's play together !",
+            "Need help ?",
           "CONTACT ME": "Mail me",
         },
       },
@@ -57,18 +58,18 @@ i18n
           "Guitar harmony Enthusiast": "Appétit pour la bonne musique",
           "I'm passionated by learning old-fashioned guitar styles, especially blues, and applying them to push further my guitar practising skills":
             "Je suis actuellement passionné par l'apprentissage de la guitare et notamment de vieux styles de musique comme le blues",
-            "My Portfolio.": "Mon Portfolio.",
-          "Leon Hamonet Assocation website": "Le site de l'association Leon Hamonet",
-          "Website dedicated to the famous painter of French brittany coast":
-            "Website dédié au fameux peintre de la côte d'émeraude qui a su peindre avec délicatesse les cotes colorées d'Erquy",
-            "Teleworking app":"Teletrav-app",
-          "Teleworking and holiday managing app for my colleagues":
-            "Application de gestion de tele-travail et de prise de congé pour mes collègues",
+          "My Portfolio.": "Mon Portfolio.",
+          "Real Websites": "Real Websites",
+          "Theses are real projects for associations and colleagues. These projects involves modern Front-End technologies (React.js,Gastby.js,GraphQL) as well as some Back-end modules and concepts (Express.js,Passport.js,RESTful APIs,)":
+            "Theses are real projects for associations and colleagues. These projects involves modern Front-End technologies (React.js,Gastby.js,GraphQL) as well as some Back-end modules and concepts (Express.js,Passport.js,RESTful APIs,)",
+          "Draft Integration": "Draft Integration",
+          "Theses are various Front-End trainings I use to realized during my formation and skills assessments using frontendmentor.io":
+            "Theses are various Front-End trainings I use to realized during my formation and skills assessments using frontendmentor.io",
           "Get In Touch": "Prendre contact",
           "You're a passionate like me ?":
-            "Vous êtes un touche à tout comme moi ?",
+            "Vous avez autre chose à faire que de corriger les bugs ou coder votre site web ?",
           "You like to code websites while playing a guitar serenade to your love ? Let's play together !":
-            "Vous avez besoin d'un coup de main ? ",
+            "Besoin d'un coup de main ? ",
           "CONTACT ME": "Me contacter",
         },
       },
