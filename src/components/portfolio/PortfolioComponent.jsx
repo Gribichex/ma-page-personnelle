@@ -1,6 +1,5 @@
-import hamonet_mobile from "../../medias/images/hamonet_mobile.png";
 import hamonet_desktop from "../../medias/images/hamonet_desktop.png";
-import teleworking_mobile from "../../medias/images/teleworking_mobile.png";
+
 import teleworking_desktop from "../../medias/images/teleworking_desktop.png";
 import { useTranslation } from "react-i18next";
 
@@ -16,11 +15,11 @@ function PortfolioComponent() {
       <Carousel>
         <div>
           <img src={hamonet_desktop} alt="hamonet_desktop" />
-          <p
-            className="legend"
-            style={{ backgroundColor: "cadetblue"}}
-          >
-            <a style={{ color: "white", fontSize:"2rem" }} href="https://leonhamonet.netlify.app/">
+          <p className="legend" style={{ backgroundColor: "cadetblue" }}>
+            <a
+              style={{ color: "white", fontSize: "2rem" }}
+              href="https://leonhamonet.netlify.app/"
+            >
               {t(
                 "Website dedicated to the famous painter of French brittany coast"
               )}
@@ -30,8 +29,12 @@ function PortfolioComponent() {
         <div>
           <img src={teleworking_desktop} alt="teleworking_desktop" />
           <p className="legend" style={{ backgroundColor: "cadetblue" }}>
-          <a style={{ color: "white", fontSize:"2rem" }} href="https://teletravail-demo.herokuapp.com/">
-            {t("Teleworking and holiday managing app for my colleagues")} </a>
+            <a
+              style={{ color: "white", fontSize: "2rem" }}
+              href="https://teletravail-demo.herokuapp.com/"
+            >
+              {t("Teleworking and holiday managing app for my colleagues")}{" "}
+            </a>
           </p>
         </div>
       </Carousel>

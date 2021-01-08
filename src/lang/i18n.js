@@ -11,9 +11,9 @@ i18n
       en: {
         translations: {
           "I'm Julien": "Fréhel Web Coding",
-          "Hello.": "Hello.",
+          "Hello.": "Welcome !",
           "an R&D engineer and a web-developpment enthousiast.":
-            "an R&D engineer and a web-developpment enthousiast.",
+            "A business that does not hesitate to soak for you !",
           "I'm an signal processing engineer who decided to dig in web development":
             "I'm an signal processing engineer who decided to dig in web development",
           "My Skills.": "My Skills.",

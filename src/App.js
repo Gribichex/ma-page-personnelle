@@ -8,9 +8,17 @@ import PortfolioComponent from "./components/portfolio/PortfolioComponent";
 import Profile from "./components/profile/Profile";
 import Transition from "./components/common/Transition";
 
+
+
 function App() {
+
+
+
+
+
   return (
     <div className="App">
+
       <Fade>
         <Introduction />
         <Profile />
