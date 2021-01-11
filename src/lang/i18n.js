@@ -28,13 +28,14 @@ i18n
             "I'm passionated by learning old-fashioned guitar styles, especially blues, and applying them to push further my guitar practising skills",
           "My Portfolio.": "My Portfolio.",
           "Real Websites": "Real Websites",
-          "Theses are real projects for associations and colleagues. These projects involves modern Front-End technologies (React.js,Gastby.js,GraphQL) as well as some Back-end modules and concepts (Express.js,Passport.js,RESTful APIs,)":
-            "Theses are real projects for associations and colleagues. These projects involves modern Front-End technologies (React.js,Gastby.js,GraphQL) as well as some Back-end modules and concepts (Express.js,Passport.js,RESTful APIs,)",
+          "Theses are real projects for associations and colleagues. These projects involves modern Front-End technologies (React.js,Gastby.js,GraphQL) as well as some Back-end modules and concepts (Express.js,Passport.js,MongoDB databases, RESTful APIs conception)":
+            "Theses are real projects for associations and colleagues. These projects involves modern Front-End technologies (React.js,Gastby.js,GraphQL) as well as some Back-end modules and concepts (Express.js,Passport.js,MongoDB databases, RESTful APIs conception)",
           "Draft Integration": "Draft Integration",
           "Theses are various Front-End trainings I use to realized during my formation and skills assessments using frontendmentor.io":
             "Theses are various Front-End trainings I use to realized during my formation and skills assessments using frontendmentor.io",
           "Get In Touch": "Get In Touch",
-          "You're a passionate like me ?": "You have something better to do than coding yourself ?",
+          "You're a passionate like me ?":
+            "You have something better to do than coding yourself ?",
           "You like to code websites while playing a guitar serenade to your love ? Let's play together !":
             "Need help ?",
           "CONTACT ME": "Mail me",
@@ -59,12 +60,12 @@ i18n
           "I'm passionated by learning old-fashioned guitar styles, especially blues, and applying them to push further my guitar practising skills":
             "Je suis actuellement passionné par l'apprentissage de la guitare et notamment de vieux styles de musique comme le blues",
           "My Portfolio.": "Mon Portfolio.",
-          "Real Websites": "Real Websites",
-          "Theses are real projects for associations and colleagues. These projects involves modern Front-End technologies (React.js,Gastby.js,GraphQL) as well as some Back-end modules and concepts (Express.js,Passport.js,RESTful APIs,)":
-            "Theses are real projects for associations and colleagues. These projects involves modern Front-End technologies (React.js,Gastby.js,GraphQL) as well as some Back-end modules and concepts (Express.js,Passport.js,RESTful APIs,)",
+          "Real Websites": "Sites web actifs",
+          "Theses are real projects for associations and colleagues. These projects involves modern Front-End technologies (React.js,Gastby.js,GraphQL) as well as some Back-end modules and concepts (Express.js,Passport.js,MongoDB databases, RESTful APIs conception)":
+            "Ces sont de vrais projets pour une assocation et des collègues impliquant des technologies Front-End modernes(React.js,Gastby.js,GraphQL) ainsi que des modules et concepts back-end (Express.js,Passport.js,MongoDB databases, RESTful APIs conception)",
           "Draft Integration": "Draft Integration",
           "Theses are various Front-End trainings I use to realized during my formation and skills assessments using frontendmentor.io":
-            "Theses are various Front-End trainings I use to realized during my formation and skills assessments using frontendmentor.io",
+            "Réalisation de l'intégration de maquettes durant ma formation et exercices pratiqués sur le site frontendmentor.io",
           "Get In Touch": "Prendre contact",
           "You're a passionate like me ?":
             "Vous avez autre chose à faire que de corriger les bugs ou coder votre site web ?",

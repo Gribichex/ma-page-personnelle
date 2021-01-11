@@ -11,8 +11,7 @@ function PortfolioComponent() {
 
   const firstTitle = "Real Websites";
   const firstDescription =
-    "Theses are real projects for associations and colleagues. These projects involves modern Front-End technologies (React.js,Gastby.js,GraphQL) as well as some Back-end modules and concepts (Express.js,Passport.js,RESTful APIs,)";
-  const firstContent = [
+  "Theses are real projects for associations and colleagues. These projects involves modern Front-End technologies (React.js,Gastby.js,GraphQL) as well as some Back-end modules and concepts (Express.js,Passport.js,MongoDB databases, RESTful APIs conception)";  const firstContent = [
     { imgSrc: hamonet_desktop, websiteSrc: "https://leonhamonet.netlify.app/" },
     {
       imgSrc: teleworking_desktop,

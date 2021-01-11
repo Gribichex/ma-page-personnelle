@@ -16,16 +16,16 @@ function Introduction() {
         <video poster={thumb}  autoPlay id="video" src={video} loop muted></video>
         <div id="videoMessage" className="styling">
           <button
-            style={{ position: "absolute", top: "10px", left: "40px"}}
+            style={{ position: "absolute", top: "10px", left: "10px"}}
             onClick={() => changeLanguage("fre")}
           >
-            <img src={FR_svg} alt="FR" style={{width:"10px", height:"10px"}}/>
+            <img src={FR_svg} alt="FR" style={{width:"40px", height:"40px"}}/>
           </button>
           <button
-            style={{ position: "absolute", top: "10px", left: "10px"}}
+            style={{ position: "absolute", top: "10px", left: "80px"}}
             onClick={() => changeLanguage("en")}
           >
-             <img src={USA_svg} alt="USA" style={{width:"10px", height:"10px"}}/>
+             <img src={USA_svg} alt="USA" style={{width:"40px", height:"40px"}}/>
           </button>
           <h1 className="top-title">
             {t("I'm Julien")}
