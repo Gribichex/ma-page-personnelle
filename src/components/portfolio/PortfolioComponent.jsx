@@ -9,20 +9,14 @@ import PorfolioSubComponent from "./PorfolioSubComponent";
 function PortfolioComponent() {
   const { t } = useTranslation();
 
-  const firstTitle = "Real Websites";
+  const firstTitle = "Websites and mockups";
   const firstDescription =
-  "Theses are real projects for associations and colleagues. These projects involves modern Front-End technologies (React.js,Gastby.js,GraphQL) as well as some Back-end modules and concepts (Express.js,Passport.js,MongoDB databases, RESTful APIs conception)";  const firstContent = [
+  "Theses are real projects for associations and colleagues as well as mockups integrated during my formation";  const firstContent = [
     { imgSrc: hamonet_desktop, websiteSrc: "https://leonhamonet.netlify.app/" },
     {
       imgSrc: teleworking_desktop,
       websiteSrc: "https://teletravail-demo.herokuapp.com/",
     },
-  ];
-
-  const secondTitle = "Draft Integration";
-  const secondDescription =
-    "Theses are various Front-End trainings I use to realized during my formation and skills assessments using frontendmentor.io";
-  const secondContent = [
     {
       imgSrc: tindog_desktop,
       websiteSrc: "https://gribichex.github.io/TinDog/",
@@ -38,22 +32,20 @@ function PortfolioComponent() {
     },
   ];
 
+
+
   return (
     <div className="portfolio">
-      <h2>{t("My Portfolio.")}</h2>
-      <div className="carouselGrid">
+      <h2>{t("Portfolio.")}</h2>
+
         <PorfolioSubComponent
           title={firstTitle}
           description={firstDescription}
           portfolioELements={firstContent}
         />
-        <PorfolioSubComponent
-          title={secondTitle}
-          description={secondDescription}
-          portfolioELements={secondContent}
-        />
+
       </div>
-    </div>
+
   );
 }
 

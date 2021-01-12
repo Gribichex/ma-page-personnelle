@@ -1,59 +1,66 @@
 import { useTranslation } from "react-i18next";
-import ux_png from "../../medias/icons/ux.png"
-import guitar_png from "../../medias/icons/guitar.png"
-import signal_png from "../../medias/icons/wireless.png"
+import ux_svg from "../../medias/icons/ux.svg";
+import backend_svg from "../../medias/icons/backend.svg";
 
 
 function SkillsComponent() {
   const { t } = useTranslation();
   return (
     <div className="middle-container">
-
-
-
       <div className="skills">
         <h2>{t("My Skills.")}</h2>
+        <h3 className="skill-stack">{t("La pile MERN, un ensemble cohérent et éprouvé pour des sites de qualité")}</h3>
         <div className="skill-row">
-          <img
-            className="skill-image"
-            src={ux_png}
-            alt="front-end"
-          />
+          <img className="skill-image" src={ux_svg} alt="front-end" />
           <div className="skill-text">
-            <h3>{t("Front End Developement")}</h3>
+            <h3>{t("Front-End Technologies")}</h3>
             <p>
+              <span className="skill-name skill-name--special ">MongoDB: </span>
               {t(
-                "I got an increasing knowledge in the field of Front-End Web developement including popular libraries/frameworks such as Bootstrap and React.js"
+                "Langage de base de donnée non-relationnelle (facilement scalable)"
               )}
+              <br />
+              <span className="skill-name skill-name--special ">ExpressJS: </span>
+              {t("Framework Javascript pour création de serveur web")}
+              <br />
+              <span className="skill-name skill-name--special ">NodeJS: </span>
+              {t(
+                "Environnement d’exécution permettant d’utiliser le JavaScript côté serveur"
+              )}
+              <br />
+              <br />
+              <span className="skill-name">PassportJS: </span>
+              {t("Framework Javascript pour gestion d’authentification")}
+              <br />
             </p>
           </div>
         </div>
         <div className="skill-row skill-row--reverse">
           <div className="skill-text">
-            <h3>{t("Digital signal Processing")}</h3>
+            <h3>{t("Back-End Technologies")}</h3>
             <p>
+            <span className="skill-name skill-name--special ">ReactJS: </span>
               {t(
-                "I have a several years experience designing and implementing state of the art sonar signal processing chains."
+                " Librairie populaire et moderne pour le rendu client"
               )}
+              <br />
+              <br />
+              <span className="skill-name">ReduxJS: </span>
+              {t("Gestionnaire d’état centralisé pour site web")}
+              <br />
+              <span className="skill-name">GatsbyJS: </span>
+              {t(
+                "Framework de création de sites statiques basé sur React JS"
+              )}
+              <br />
+              <span className="skill-name">Bootstrap: </span>
+              {t(
+                "Framework moderne HTML/CSS/Javascript pour mise en page"
+              )}
+              <br />
             </p>
           </div>
-          <img
-            className="skill-image"
-            src={signal_png}
-            alt="signal"
-          />
-        </div>
-
-        <div className="skill-row">
-          <img className="skill-image" src={guitar_png} alt="guitar" />
-          <div className="skill-text">
-            <h3>{t("Guitar harmony Enthusiast")}</h3>
-            <p>
-              {t(
-                "I'm passionated by learning old-fashioned guitar styles, especially blues, and applying them to push further my guitar practising skills"
-              )}
-            </p>
-          </div>
+          <img className="skill-image" src={backend_svg} alt="backend_svg" />
         </div>
       </div>
     </div>

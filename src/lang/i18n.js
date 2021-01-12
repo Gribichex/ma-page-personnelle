@@ -10,12 +10,17 @@ i18n
     resources: {
       en: {
         translations: {
-          "I'm Julien": "Fréhel Web Coding",
-          "Hello.": "Welcome !",
-          "an R&D engineer and a web-developpment enthousiast.":
-            "A business that does not hesitate to soak for you !",
-          "I'm an signal processing engineer who decided to dig in web development":
-            "I'm an signal processing engineer who decided to dig in web development",
+          "Intro-title": "Hello, I'm ",
+          "Intro-subtitle": "full-stack web developer",
+          "Problem-to-solve":
+            "You have something better to do than coding a website ?",
+          "Answer": "This is the right solution",
+          "Fast":"Fast",
+          "Fast Loading and fluid interaction":"Fast Loading and fluid interaction",
+          "Responsive":"Responsive",
+          "Display is adapted for every device from mobile to desktop":"Display is adapted for every device from mobile to desktop",
+          "Dynamic":"Dynamic",
+          "Various possible interaction with server or other websites":"Various possible interaction with server or other websites",
           "My Skills.": "My Skills.",
           "Digital signal Processing": "Digital signal Processing",
           "I have a several years experience designing and implementing state of the art sonar signal processing chains.":
@@ -43,12 +48,17 @@ i18n
       },
       fre: {
         translations: {
-          "I'm Julien": "Fréhel Web Coding",
-          "Hello.": "Bienvenue !",
-          "an R&D engineer and a web-developpment enthousiast.":
-            "Une micro-entreprise web qui n'a pas peur de se mouiller pour vous !",
-          "I'm an signal processing engineer who decided to dig in web development":
-            "Je suis un ingénieur en traitement du signal qui a décidé de s'amuser avec le développement Web",
+          "Intro-title": "Bonjour, je suis ",
+          "Intro-subtitle": "Développeur web full-stack",
+          "Problem-to-solve":
+            "Vous avez autre chose à faire que de coder votre site web ?",
+          "Answer": "Optez pour une solution",
+          "Fast":"Rapide",
+          "Fast Loading and fluid interaction":"Chargements rapides et interaction fluide",
+          "Responsive":"Responsive",
+          "Display is adapted for every device from mobile to desktop":"Affichage adapté à n’importe quel support, mobile ou bureau",
+          "Dynamic":"Dynamique",
+          "Various possible interaction with server or other websites":"Interactions avec un serveur ou d’autres sites web",
           "My Skills.": "Mes compétences.",
           "Digital signal Processing": "Traitement du signal",
           "I have a several years experience designing and implementing state of the art sonar signal processing chains.":

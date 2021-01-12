@@ -1,19 +1,21 @@
+/*----------------------------------------------------------global styling-----------------------------------------------------*/
+
 h1 {
   margin: 0 auto;
-  font-family: "Caveat Brush", cursive;
+  font-family: "Calibri";
   color: #66bfbf;
 }
 
 h2 {
   margin-top: 0;
-  color: #66bfbf;
+  color: lightseagreen;
   font-weight: bold;
   text-align: center;
   font-size: calc(2vw + 3rem);
 }
 
 h3 {
-  color: #11999e;
+  color: #66bfbf;
   font-size: calc(1vw + 1.5rem);
 }
 
@@ -32,171 +34,6 @@ p {
 
 a {
   color: #11999e;
-}
-
-.top-title {
-  font-size: calc(4vw + 2rem);
-  color: white;
-  text-shadow: 10px 10px 1px mediumaquamarine;
-}
-
-.top-subtitle {
-  font-weight: bold;
-  color: white;
-  font-size: calc(1vw + 1rem);
-}
-
-.intro-logo {
-  width: calc(4vw + 2rem);
-  margin: 0 calc(2vw + 2rem);
-  margin-top: -0.5ex;
-  vertical-align: middle;
-}
-
-#videowrapper {
-  position: relative;
-  overflow: hidden;
-}
-
-#fullScreenDiv {
-  min-height: 100%;
-  height: 50vh;
-  width: 100vw;
-  padding: 0;
-  margin: 0;
-  background-color: gray;
-  position: relative;
-}
-
-#video {
-  width: 100vw;
-  height: auto;
-  margin: auto;
-  display: block;
-  position: relative;
-  top: -200px;
-}
-@media (min-aspect-ratio: 16/9) {
-  #video {
-    width: 100vw;
-    height: auto;
-  }
-}
-
-@media (max-aspect-ratio: 16/9) {
-  #video {
-    height: 100vh;
-    width: auto;
-    margin-left: 50vw;
-    transform: translate(-50%);
-  }
-}
-
-#videoMessage {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.profile {
-  margin: 100px auto 100px auto;
-}
-
-.portrait {
-  width: 50vw;
-  max-width: 400px;
-  margin: 0 auto 50px auto;
-}
-
-.logo {
-  width: 200px;
-  padding: 200px 0;
-  margin: 100px auto 100px auto;
-}
-
-.intro {
-  width: 60%;
-  margin: auto auto;
-}
-
-.transition {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  min-height: 30vh;
-  background-attachment: fixed;
-}
-
-.transition.first {
-  background-image: url("../medias/images/fort-lalatte.jpg");
-}
-.transition.second {
-  background-image: url("../medias/images/cote.jpg");
-}
-.transition.third {
-  background-image: url("../medias/images/plage.jpg");
-}
-.contact-me {
-  margin: 50px 20px 0;
-}
-
-.bottom-container {
-  background-color: #66bfbf;
-  padding: 0 20px;
-}
-
-.skills {
-  max-width: 1500px;
-  margin: 100px auto 50px auto;
-}
-
-.skill-row {
-  margin: 50px 20px;
-  text-align: left;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.skill-row--reverse {
-  flex-wrap: wrap-reverse;
-}
-
-.skill-text {
-  max-width: 800px;
-  margin: 50px 0;
-}
-
-.skill-image {
-  max-width: 80vw;
-  max-height: 300px;
-  margin: 10px 50px;
-}
-
-.portfolio {
-  max-width: 1500px;
-  margin: 100px auto 50px auto;
-}
-.carouselGrid {
-  display: flex;
-  
-}
-
-@media screen and (max-width: 1400px) {
-  .carouselGrid {
-    flex-direction: column;
-  }
-}
-
-.carousel .slide {
-  background: none;
 }
 
 .btn {
@@ -219,6 +56,232 @@ a {
   position: relative;
   top: 1px;
 }
+
+/*----------------------------------------------------------transition-----------------------------------------------------*/
+
+.transition {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 70vh;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.transition__logo {
+  margin: 30vh auto;
+  max-width: 200px;
+}
+
+.transition.first {
+  background-image: url("../medias/images/fort-lalatte.jpg");
+}
+.transition.second {
+  background-image: url("../medias/images/cote.jpg");
+}
+.transition.third {
+  background-image: url("../medias/images/plage.jpg");
+}
+
+/*----------------------------------------------------------Introduction-----------------------------------------------------*/
+
+.top-container {
+  margin: 20vh auto;
+  position: "absolute";
+  top: "50%";
+  left: "50%";
+  width: 70%;
+}
+
+.top-title {
+  font-size: calc(4vw + 2rem);
+  color: white;
+}
+
+.top-name {
+  font-family: "-apple-system";
+  color: #67cdaa;
+}
+
+.top-subtitle {
+  font-weight: bold;
+  color: white;
+  font-size: calc(1vw + 1rem);
+}
+
+.intro-logo {
+  width: calc(4vw + 2rem);
+  margin: 0 calc(2vw + 2rem);
+  margin-top: -0.5ex;
+  vertical-align: middle;
+}
+
+/*----------------------------------------------------------solution-----------------------------------------------------*/
+
+.solution-ask {
+  color: grey;
+  margin: 100px auto;
+}
+
+.solution-answer {
+  margin: 100px auto;
+}
+
+.card-grid {
+  display: flex;
+  justify-content: space-around;
+  max-width: 70%;
+  margin: 100px auto;
+}
+
+@media screen and (max-width: 1400px) {
+  .card-grid {
+    flex-direction: column;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 40px;
+  flex: 1;
+}
+
+.card__icon {
+  max-width: 200px;
+
+  flex: 1;
+}
+
+.card__title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: grey;
+  flex: 1;
+}
+
+.card__description {
+  font-size: 2rem;
+  font-weight: normal;
+  color: grey;
+  flex: 1;
+}
+
+/*----------------------------------------------------------offers-----------------------------------------------------*/
+
+.offer-card {
+  padding: 30px;
+  margin: 30px;
+  flex: 1;
+  text-align: left;
+  border: 2px solid #66bfbf;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.offer-card__item {
+  flex: 1;
+}
+.offer-card__name {
+  text-align: center;
+}
+
+.offer-card__icon {
+  width: 1.5rem;
+  display: inline-block;
+  position: relative;
+  top: 3.7px;
+  right: 7px;
+}
+
+.offer-card__content,
+.offer-card__details {
+  font-weight: bold;
+}
+
+.offer-btn {
+  font-size: 2rem;
+  text-align: center;
+  margin: 0 auto;
+  width: 30%;
+  height: 2rem;
+  display: block;
+}
+
+.contact-me {
+  margin: 50px 20px 0;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 0 20px;
+}
+
+
+/*----------------------------------------------------------skills-----------------------------------------------------*/
+
+.skill-stack {
+  color: grey;
+  margin: 100px auto;
+}
+.skills {
+  max-width: 70%;
+  margin: 100px auto;
+}
+
+.skill-row {
+  margin: 50px 20px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.skill-row--reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.skill-name {
+  font-weight: bold;
+  color: #66bfbf;
+}
+
+.skill-name--special {
+  color: #11999e;
+  background-color:#FFFF00;
+}
+
+.skill-text {
+  max-width: 800px;
+  margin: 50px 0;
+}
+
+.skill-image {
+  max-height: 500px;
+  flex: 1;
+}
+
+
+/*----------------------------------------------------------portfolio-----------------------------------------------------*/
+
+.portfolio {
+  max-width: 70%;
+  margin: 100px auto 50px auto;
+}
+
+
+
+.carousel .slide {
+  background: none;
+}
+
+
+
+
 
 .footer-link {
   text-decoration: none;
