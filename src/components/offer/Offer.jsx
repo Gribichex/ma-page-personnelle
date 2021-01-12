@@ -39,7 +39,7 @@ const thirdOffer = {
 
 
   return (
-    <div className="container">
+    <div className="offer-container">
       <h2 className="offer-answer">{t("Offers")}</h2>
       <div className="card-grid">
         <OfferCard {...firstOffer}/>

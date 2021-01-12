@@ -16,11 +16,11 @@ function OfferCard({
 
   return (
     <div className="offer-card">
-      <h3 className="offer-card__name offer-card__item">{t(name)}</h3>
-      <p className="offer-card__content offer-card__item">{t(content)}</p>
-      <p className="offer-card__interest offer-card__item">{t(interest)}</p>
-      <p className="offer-card__details offer-card__item">
-        <img className="offer-card__icon " src={clock_svg} alt="clock"></img>
+      <h3 className="offer-card__name ">{t(name)}</h3>
+      <p className="offer-card__content">{t(content)}</p>
+      <p className="offer-card__interest">{t(interest)}</p>
+      <p className="offer-card__details">
+        <img className="offer-card__icon" src={clock_svg} alt="clock"></img>
         {t("delivered in ") + delivery + t(" days")}
         <br />
         <img
@@ -30,7 +30,7 @@ function OfferCard({
         ></img>
         {revisions + t(" revisions")}
       </p>
-      <p className="offer-card__item ">
+      <p className="offer-card__features">
         {assets.map((element) => (
           <div>
             <img className="offer-card__icon" src={check_svg} alt="check"></img>
@@ -39,7 +39,7 @@ function OfferCard({
           </div>
         ))}
       </p>
-      <button  className="btn offer-btn offer-card__item" disabled>{price}</button >
+      <button className="btn offer-btn" disabled>{price}</button >
     </div>
   );
 }
