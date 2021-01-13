@@ -39,7 +39,11 @@ function OfferCard({
           </div>
         ))}
       </p>
-      <button className="btn offer-btn" disabled>{price}</button >
+      <div className="offer-card__btncontainer">
+        <button className="btn offer-btn" disabled>
+          {price}
+        </button>
+      </div>
     </div>
   );
 }

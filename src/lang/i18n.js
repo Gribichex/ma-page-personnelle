@@ -14,13 +14,40 @@ i18n
           "Intro-subtitle": "full-stack web developer",
           "Problem-to-solve":
             "You have something better to do than coding a website ?",
-          "Answer": "This is the right solution",
-          "Fast":"Fast",
-          "Fast Loading and fluid interaction":"Fast Loading and fluid interaction",
-          "Responsive":"Responsive",
-          "Display is adapted for every device from mobile to desktop":"Display is adapted for every device from mobile to desktop",
-          "Dynamic":"Dynamic",
-          "Various possible interaction with server or other websites":"Various possible interaction with server or other websites",
+          Answer: "This is the right solution",
+          Fast: "Fast",
+          "Fast Loading and fluid interaction":
+            "Fast Loading and fluid interaction",
+          Responsive: "Responsive",
+          "Display is adapted for every device from mobile to desktop":
+            "Display is adapted for every device from mobile to desktop",
+          Dynamic: "Dynamic",
+          "Various possible interaction with server or other websites":
+            "Various possible interaction with server or other websites",
+
+          Basic: "Basic",
+          "One page only static website creation":
+            "One page only static website creation",
+          "Ideal solution for a quick and simple presentation of the added-value of your business":
+            "Ideal solution for a quick and simple presentation of the added-value of your business",
+          "delivered in ": "delivered in ",
+          " days": " days",
+          " revisions": " revisions",
+          "1 Page": "1 Page",
+          "Responsive Design": "Responsive Design",
+          Standard: "Standard",
+          "Static website creation": "Static website creation",
+          "Ideal solution for a comprehensive showcase of any business or association":
+            "Ideal solution for a comprehensive showcase of any business or association",
+          "5 Pages": "5 Pages",
+          Premium: "Premium",
+          "Dynamic website creation": "Dynamic website creation",
+          "Ideal solution for a web application handling server-stored data":
+            "Ideal solution for a web application handling server-stored data",
+          "10 Pages": "10 Pages",
+          "Creation of related server, APIs and databases":
+            "Creation of related server, APIs and databases",
+
           "My Skills.": "My Skills.",
           "Digital signal Processing": "Digital signal Processing",
           "I have a several years experience designing and implementing state of the art sonar signal processing chains.":
@@ -52,13 +79,40 @@ i18n
           "Intro-subtitle": "Développeur web full-stack",
           "Problem-to-solve":
             "Vous avez autre chose à faire que de coder votre site web ?",
-          "Answer": "Optez pour une solution",
-          "Fast":"Rapide",
-          "Fast Loading and fluid interaction":"Chargements rapides et interaction fluide",
-          "Responsive":"Responsive",
-          "Display is adapted for every device from mobile to desktop":"Affichage adapté à n’importe quel support, mobile ou bureau",
-          "Dynamic":"Dynamique",
-          "Various possible interaction with server or other websites":"Interactions avec un serveur ou d’autres sites web",
+          Answer: "Optez pour une solution",
+          Fast: "Rapide",
+          "Fast Loading and fluid interaction":
+            "Chargements rapides et interaction fluide",
+          Responsive: "Responsive",
+          "Display is adapted for every device from mobile to desktop":
+            "Affichage adapté à n’importe quel support, mobile ou bureau",
+          Dynamic: "Dynamique",
+          "Various possible interaction with server or other websites":
+            "Interactions avec un serveur ou d’autres sites web",
+
+          Basic: "Basique",
+          "One page only static website creation":
+            "Création d'une page de présentation statique",
+          "Ideal solution for a quick and simple presentation of the added-value of your business":
+            "Solution idéale pour une présentation simple et rapide de la plus-value de votre entreprise",
+          "delivered in ": "livré en ",
+          " days": " jours",
+          " revisions": " revisions",
+          "1 Page": "1 Page",
+          "Responsive Design": "Responsive Design",
+          Standard: "Standard",
+          "Static website creation": "Création d'un site web statique",
+          "Ideal solution for a comprehensive showcase of any business or association":
+            "Solution idéale pour un site vitrine complet pour n'importe quelle petite entreprise ou association",
+          "5 Pages": "5 Pages",
+          Premium: "Premium",
+          "Dynamic website creation": "Création d'un site web dynamique",
+          "Ideal solution for a web application handling server-stored data":
+            "Solution idéale pour une application web capable de gérer des données complexes ou volumineuses",
+          "10 Pages": "10 Pages",
+          "Creation of related server, APIs and databases":
+            "Création du serveur, des APIs et bases de données associées",
+
           "My Skills.": "Mes compétences.",
           "Digital signal Processing": "Traitement du signal",
           "I have a several years experience designing and implementing state of the art sonar signal processing chains.":

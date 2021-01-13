@@ -49,7 +49,6 @@ a {
   padding: 20px;
 }
 
-
 .btn:hover {
   background-color: #254646;
 }
@@ -126,7 +125,7 @@ a {
 }
 
 .solution-answer {
-  margin: 50px auto 100px ;
+  margin: 50px auto 100px;
 }
 
 .card-grid {
@@ -182,24 +181,27 @@ a {
   text-align: left;
   border: 2px solid #66bfbf;
   border-radius: 20px;
-
-
 }
 
 .offer-card__name {
   text-align: center;
 }
 
-.offer-card__content {
-  min-height: 10vh;
+
+@media screen and (min-width: 1400px) {
+  .offer-card__content {
+    min-height: 100px;
+  }
+  
+  .offer-card__interest {
+    min-height: 150px;
+  }
+  .offer-card__features {
+    min-height: 200px;
+  }
 }
 
-.offer-card__interest {
-  min-height: 15vh;
-}
-.offer-card__features {
-  min-height: 20vh;
-}
+
 
 .offer-card__icon {
   width: 1.5rem;
@@ -214,12 +216,16 @@ a {
   font-weight: bold;
 }
 
+.offer-card__btncontainer{
+  text-align: center;
+  
+}
+
 .offer-btn {
   font-size: 2rem;
   text-align: center;
   width: 30%;
-
-
+  margin: 0 auto;
 }
 
 .contact-me {
