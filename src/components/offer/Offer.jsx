@@ -12,7 +12,7 @@ function Offer() {
        delivery:2,
        revisions:2,
        assets: ["1 Page","Responsive Design"],
-       price: ["9€"]
+       price: ["19€"]
    } 
 
    const secondOffer = {
@@ -22,7 +22,7 @@ function Offer() {
     delivery:7,
     revisions:7,
     assets: ["5 Pages","Responsive Design"],
-    price: ["29€"]
+    price: ["49€"]
 } 
 
 
@@ -32,8 +32,8 @@ const thirdOffer = {
   interest:"Ideal solution for a web application handling server-stored data",
   delivery:21,
   revisions:10,
-  assets: ["10 Pages","Responsive Design","Creation of related server, APIs and databases"],
-  price: ["99€"]
+  assets: ["7 Pages","Responsive Design","Creation of related server, APIs and databases"],
+  price: ["129€"]
 } 
 
 
