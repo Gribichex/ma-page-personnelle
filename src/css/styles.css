@@ -11,7 +11,7 @@ h2 {
   color: lightseagreen;
   font-weight: bold;
   text-align: center;
-  font-size: calc(2vw + 3rem);
+  font-size: calc(2vw + 2.3rem);
 }
 
 h3 {
@@ -44,17 +44,8 @@ a {
   color: #ffffff;
   font-size: 20px;
   text-decoration: none;
-  margin-bottom: 50px;
-  margin-top: 50px;
-  padding: 20px;
-}
 
-.btn:hover {
-  background-color: #254646;
-}
-.btn:active {
-  position: relative;
-  top: 1px;
+  padding: 20px;
 }
 
 /*----------------------------------------------------------transition-----------------------------------------------------*/
@@ -187,21 +178,18 @@ a {
   text-align: center;
 }
 
-
 @media screen and (min-width: 1400px) {
   .offer-card__content {
     min-height: 100px;
   }
-  
+
   .offer-card__interest {
     min-height: 150px;
   }
   .offer-card__features {
-    min-height: 200px;
+    min-height: 220px;
   }
 }
-
-
 
 .offer-card__icon {
   width: 1.5rem;
@@ -216,15 +204,14 @@ a {
   font-weight: bold;
 }
 
-.offer-card__btncontainer{
+.offer-card__btncontainer {
   text-align: center;
-  
 }
 
 .offer-btn {
   font-size: 2rem;
   text-align: center;
-  width: 30%;
+  min-width: 30%;
   margin: 0 auto;
 }
 
@@ -292,6 +279,22 @@ a {
   background: none;
 }
 
+/*----------------------------------------------------------Contact-----------------------------------------------------*/
+
+.btn--contact {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.btn--contact:hover {
+  background-color: #254646;
+}
+.btn--contact:active {
+  position: relative;
+  top: 1px;
+}
+
+/*----------------------------------------------------------Footer-----------------------------------------------------*/
 .footer-link {
   text-decoration: none;
   display: inline-block;
@@ -308,3 +311,4 @@ a {
   font-size: small;
   margin: 10px;
 }
+

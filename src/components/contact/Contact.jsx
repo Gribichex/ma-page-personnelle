@@ -5,17 +5,19 @@ function Contact() {
   return (
     <div className="contact-me">
       <h2>{t("Get In Touch")}</h2>
-      <h3>{t("You're a passionate like me ?")}</h3>
+      <h3>{t("You need a website that keeps up with your business")}</h3>
       <p>
         {t(
-          "You like to code websites while playing a guitar serenade to your love ? Let's play together !"
+          "Let me do it for you !"
         )}
       </p>
-      <a className="btn" href="mailto:petitpierre.julien@gmail.com">
+      <a className="btn btn--contact" href="mailto:petitpierre.julien@gmail.com">
         {t("CONTACT ME")}
       </a>
     </div>
   );
 }
+
+
 
 export default Contact;

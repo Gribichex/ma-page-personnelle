@@ -25,6 +25,7 @@ i18n
           "Various possible interaction with server or other websites":
             "Various possible interaction with server or other websites",
 
+          Offers: "Offers",
           Basic: "Basic",
           "One page only static website creation":
             "One page only static website creation",
@@ -48,29 +49,39 @@ i18n
           "Creation of related server, APIs and databases":
             "Creation of related server, APIs and databases",
 
-          "My Skills.": "My Skills.",
-          "Digital signal Processing": "Digital signal Processing",
-          "I have a several years experience designing and implementing state of the art sonar signal processing chains.":
-            "I have a several years experience designing and implementing state of the art sonar signal processing chains.",
-          "Front End Developement": "Front-End Developement",
-          "I got an increasing knowledge in the field of Front-End Web developement including popular libraries/frameworks such as Bootstrap and React.js":
-            "I got an increasing knowledge in the field of Front-End Web developement including popular libraries/frameworks such as Bootstrap and React.js",
-          "Guitar harmony Enthusiast": "Guitar harmony Enthusiast",
-          "I'm passionated by learning old-fashioned guitar styles, especially blues, and applying them to push further my guitar practising skills":
-            "I'm passionated by learning old-fashioned guitar styles, especially blues, and applying them to push further my guitar practising skills",
-          "My Portfolio.": "My Portfolio.",
-          "Real Websites": "Real Websites",
-          "Theses are real projects for associations and colleagues. These projects involves modern Front-End technologies (React.js,Gastby.js,GraphQL) as well as some Back-end modules and concepts (Express.js,Passport.js,MongoDB databases, RESTful APIs conception)":
-            "Theses are real projects for associations and colleagues. These projects involves modern Front-End technologies (React.js,Gastby.js,GraphQL) as well as some Back-end modules and concepts (Express.js,Passport.js,MongoDB databases, RESTful APIs conception)",
-          "Draft Integration": "Draft Integration",
-          "Theses are various Front-End trainings I use to realized during my formation and skills assessments using frontendmentor.io":
-            "Theses are various Front-End trainings I use to realized during my formation and skills assessments using frontendmentor.io",
+          "Available skills": "Available skills",
+          "The ": "The ",
+          " stack, a coherent and field-proven stack pour quality websites and applications":
+            " stack, a coherent and field-proven stack pour quality websites and applications",
+          "Front-End Technologies": "Front-End Technologies",
+          "NoSQL database language that is easily scalable":
+            "NoSQL database language that is easily scalable",
+          "Javascript framework used for server creation":
+            "Javascript framework used for server creation",
+          "Javascript runtime allowing Javascript use on server side":
+            "Javascript runtime allowing Javascript use on server side",
+          "Javascript framework for authentification management":
+            "Javascript framework for authentification management",
+          "Back-End Technologies": "Back-End Technologies",
+          "Modern and popular library for client rendering":
+            "Modern and popular library for client rendering",
+          "Centralized state management library":
+            "Centralized state management library",
+          "Framework used to create optimized ReactJS static websites":
+            "Framework used to create optimized ReactJS static websites",
+          "Modern HTML/CSS/Javascript framework to produce optimized responsive layouts":
+            "Modern HTML/CSS/Javascript framework to produce optimized responsive layouts",
+
+          Portfolio: "Portfolio",
+          "Websites and mockups": "Websites and mockups",
+          "Theses are projects for associations and companies as well as mockups integrated during my formation":
+            "Theses are projects for associations and companies as well as mockups integrated during my formation",
+
           "Get In Touch": "Get In Touch",
-          "You're a passionate like me ?":
-            "You have something better to do than coding yourself ?",
-          "You like to code websites while playing a guitar serenade to your love ? Let's play together !":
-            "Need help ?",
-          "CONTACT ME": "Mail me",
+          "You need a website that keeps up with your business":
+            "You need a website that keeps up with your business",
+          "Let me do it for you !": "Let me do it for you !",
+          "CONTACT ME": "CONTACT ME",
         },
       },
       fre: {
@@ -89,7 +100,7 @@ i18n
           Dynamic: "Dynamique",
           "Various possible interaction with server or other websites":
             "Interactions avec un serveur ou d’autres sites web",
-
+          Offers: "Offres",
           Basic: "Basique",
           "One page only static website creation":
             "Création d'une page de présentation statique",
@@ -113,28 +124,37 @@ i18n
           "Creation of related server, APIs and databases":
             "Création du serveur, des APIs et bases de données associées",
 
-          "My Skills.": "Mes compétences.",
-          "Digital signal Processing": "Traitement du signal",
-          "I have a several years experience designing and implementing state of the art sonar signal processing chains.":
-            "J'ai plusieurs années d'experience dans la conception et l'implémentation de chaine de traitement sonar de pointe",
-          "Front End Developement": "Developpement Front-End ",
-          "I got an increasing knowledge in the field of Front-End Web developement including popular libraries/frameworks such as Bootstrap and React.js":
-            "J'ai une connaissance croissante dans le domaine du développement Web Front-end notamment dans les librairies/frameworks populaires comme Bootstrap et React.js",
-          "Guitar harmony Enthusiast": "Appétit pour la bonne musique",
-          "I'm passionated by learning old-fashioned guitar styles, especially blues, and applying them to push further my guitar practising skills":
-            "Je suis actuellement passionné par l'apprentissage de la guitare et notamment de vieux styles de musique comme le blues",
-          "My Portfolio.": "Mon Portfolio.",
-          "Real Websites": "Sites web actifs",
-          "Theses are real projects for associations and colleagues. These projects involves modern Front-End technologies (React.js,Gastby.js,GraphQL) as well as some Back-end modules and concepts (Express.js,Passport.js,MongoDB databases, RESTful APIs conception)":
-            "Ces sont de vrais projets pour une assocation et des collègues impliquant des technologies Front-End modernes(React.js,Gastby.js,GraphQL) ainsi que des modules et concepts back-end (Express.js,Passport.js,MongoDB databases, RESTful APIs conception)",
-          "Draft Integration": "Draft Integration",
-          "Theses are various Front-End trainings I use to realized during my formation and skills assessments using frontendmentor.io":
-            "Réalisation de l'intégration de maquettes durant ma formation et exercices pratiqués sur le site frontendmentor.io",
+          "Available skills": "Compétences disponibles",
+          "The ": "La pile ",
+          " stack, a coherent and field-proven stack pour quality websites and applications":
+            ", un ensemble cohérent et éprouvé pour des sites de qualité",
+          "Front-End Technologies": "Front-End Technologies",
+          "NoSQL database language that is easily scalable":
+            "Langage de base de donnée non-relationnelle (facilement scalable)",
+          "Javascript framework used for server creation":
+            "Framework Javascript pour création de serveur web",
+          "Javascript runtime allowing Javascript use on server side":
+            "Environnement d’exécution permettant d’utiliser le JavaScript côté serveur",
+          "Javascript framework for authentification management":
+            "Framework Javascript pour gestion d’authentification",
+          "Back-End Technologies": "Back-End Technologies",
+          "Modern and popular library for client rendering":
+            "Librairie populaire et moderne pour le rendu client",
+          "Centralized state management library":
+            "Gestionnaire d’état centralisé pour site web",
+          "Framework used to create optimized ReactJS static websites":
+            "Framework de création de sites statiques basé sur React JS",
+          "Modern HTML/CSS/Javascript framework to produce optimized responsive layouts":
+            "Framework moderne HTML/CSS/Javascript pour créer une mise en page moderne et responsive",
+
+          Portfolio: "Portfolio",
+          "Websites and mockups": "Sites web et maquettes",
+          "Theses are projects for associations and companies as well as mockups integrated during my formation":
+            "Projets réalisés pour des associations et entreprises, maquettes intégrées pendant ma formation",
           "Get In Touch": "Prendre contact",
-          "You're a passionate like me ?":
-            "Vous avez autre chose à faire que de corriger les bugs ou coder votre site web ?",
-          "You like to code websites while playing a guitar serenade to your love ? Let's play together !":
-            "Besoin d'un coup de main ? ",
+          "You need a website that keeps up with your business":
+            "Vous avez besoin d'un site qui soit à la hauteur de votre projet",
+          "Let me do it for you !": "Je peux vous aider",
           "CONTACT ME": "Me contacter",
         },
       },

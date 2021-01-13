@@ -11,7 +11,7 @@ function PortfolioComponent() {
 
   const firstTitle = "Websites and mockups";
   const firstDescription =
-  "Theses are real projects for associations and colleagues as well as mockups integrated during my formation";  const firstContent = [
+  "Theses are projects for associations and companies as well as mockups integrated during my formation";  const firstContent = [
     { imgSrc: hamonet_desktop, websiteSrc: "https://leonhamonet.netlify.app/" },
     {
       imgSrc: teleworking_desktop,
@@ -36,7 +36,7 @@ function PortfolioComponent() {
 
   return (
     <div className="portfolio">
-      <h2>{t("Portfolio.")}</h2>
+      <h2>{t("Portfolio")}</h2>
 
         <PorfolioSubComponent
           title={firstTitle}
