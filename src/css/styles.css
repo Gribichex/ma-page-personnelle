@@ -83,29 +83,39 @@ a {
   left: "50%";
   width: 70%;
   min-height: 80vh;
+  text-align: left;
 }
 
 .top-title {
-  font-size: calc(4vw + 2rem);
+  font-weight: bold;
   color: white;
+  font-size: calc(1vw + 1rem);
 }
 
-.top-name {
-  font-family: "-apple-system";
+.top-title__name {
+  display: inline-flex;
+  align-items: center;
+}
+.top-title__name__text {
+  font-size: calc(4vw + 2rem);
   color: #67cdaa;
+}
+
+.top-title__name__logo {
+  width: calc(4vw + 2rem);
+  margin: 0 calc(1vw + 1rem);
+}
+
+@media screen and (max-width: 1023px) {
+  .top-title__name__logo {
+    visibility: hidden;
+  }
 }
 
 .top-subtitle {
   font-weight: bold;
   color: white;
   font-size: calc(1vw + 1rem);
-}
-
-.intro-logo {
-  width: calc(4vw + 2rem);
-  margin: 0 calc(2vw + 2rem);
-  margin-top: -0.5ex;
-  vertical-align: middle;
 }
 
 /*----------------------------------------------------------solution-----------------------------------------------------*/
@@ -239,7 +249,7 @@ a {
   margin: 50px 20px;
   text-align: left;
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
 }
@@ -312,4 +322,3 @@ a {
   font-size: small;
   margin: 10px;
 }
-

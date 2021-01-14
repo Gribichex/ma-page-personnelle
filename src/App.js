@@ -26,8 +26,8 @@ function App() {
         <Introduction />
         <Solution/>
         <Transition nb={"first"} />
-        <Offer/>
-        <Transition nb={"second"} />
+        {/**<Offer/>
+        <Transition nb={"second"} />*/}
         <SkillsComponent/>
         <Transition nb={"second"} />
         <PortfolioComponent />

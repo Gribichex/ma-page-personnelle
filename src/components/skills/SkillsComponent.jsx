@@ -13,7 +13,7 @@ function SkillsComponent() {
         <div className="skill-row">
           <img className="skill-image" src={ux_svg} alt="front-end" />
           <div className="skill-text">
-            <h3>{t("Front-End Technologies")}</h3>
+            <h3>{t("Back-End Technologies")}</h3>
             <p>
               <span className="skill-name skill-name--special ">MongoDB: </span>
               {t(
@@ -37,7 +37,7 @@ function SkillsComponent() {
         </div>
         <div className="skill-row skill-row--reverse">
           <div className="skill-text">
-            <h3>{t("Back-End Technologies")}</h3>
+            <h3>{t("Front-End Technologies")}</h3>
             <p>
             <span className="skill-name skill-name--special ">ReactJS: </span>
               {t(

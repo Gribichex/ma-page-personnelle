@@ -21,12 +21,10 @@ function Introduction() {
         strength={500}
       >
         <div className="top-container">
-          <h1 className="top-title">
-            {t("Intro-title")}
-            <h1 className="top-title">
-              <span className="top-name">Julien Petitpierre</span>
-              <img className="intro-logo" src={wave_svg} alt="wave" />
-            </h1>
+          <h1 className="top-title">{t("Intro-title")}</h1>
+          <h1 className="top-title__name">
+            <span className="top-title__name__text">Julien Petitpierre</span>
+            <img className="top-title__name__logo" src={wave_svg} alt="wave" />
           </h1>
           <h3 className="top-subtitle">{t("Intro-subtitle")}</h3>
         </div>
