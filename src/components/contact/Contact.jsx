@@ -11,7 +11,7 @@ function Contact() {
           "Let me do it for you !"
         )}
       </p>
-      <a className="btn btn--contact" href="mailto:petitpierre.julien@gmail.com">
+      <a className="btn btn--contact" href="https://5euros.com/profil/gribichex">
         {t("CONTACT ME")}
       </a>
     </div>

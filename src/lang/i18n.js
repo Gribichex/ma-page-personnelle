@@ -155,7 +155,7 @@ i18n
           "You need a website that keeps up with your business":
             "Vous avez besoin d'un site qui soit à la hauteur de votre projet",
           "Let me do it for you !": "Je peux vous aider",
-          "CONTACT ME": "Me contacter",
+          "CONTACT ME": "Me contacter sur 5euros.com",
         },
       },
     },
