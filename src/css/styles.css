@@ -74,7 +74,7 @@ a {
   background-image: url("../medias/images/plage.jpg");
 }
 
-@media only screen and (max-width: 40em) {
+/*@media only screen and (max-width: 40em) {
   .transition.first {
     background-image: url("../medias/images/mobile/fort-lalatte.jpg");
   }
@@ -96,7 +96,7 @@ a {
   .transition.third {
     background-image: url("../medias/images/tablet/plage.jpg");
   }
-}
+}*/
 /*----------------------------------------------------------Introduction-----------------------------------------------------*/
 
 .top-container {
