@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import profile_png from "../../medias/images/portrait.png"
+import profile_png from "../../medias/images/portrait.jpg"
 
 
 function Profile() {

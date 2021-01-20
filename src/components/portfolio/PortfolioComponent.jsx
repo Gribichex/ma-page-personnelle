@@ -1,9 +1,9 @@
-import hamonet_desktop from "../../medias/images/hamonet_desktop.png";
-import teleworking_desktop from "../../medias/images/teleworking_desktop.png";
+import hamonet_desktop from "../../medias/images/hamonet_desktop.jpg";
+import teleworking_desktop from "../../medias/images/teleworking_desktop.jpg";
 import { useTranslation } from "react-i18next";
-import fylo_desktop from "../../medias/images/Fylo_desktop.png";
-import tindog_desktop from "../../medias/images/tindog_desktop.png";
-import social_desktop from "../../medias/images/socialproof_desktop.png";
+import fylo_desktop from "../../medias/images/Fylo_desktop.jpg";
+import tindog_desktop from "../../medias/images/tindog_desktop.jpg";
+import social_desktop from "../../medias/images/socialproof_desktop.jpg";
 import PorfolioSubComponent from "./PorfolioSubComponent";
 
 function PortfolioComponent() {
