@@ -74,6 +74,34 @@ a {
   background-image: url("../medias/images/plage.jpg");
 }
 
+@media only screen and (max-width: 40em) {
+
+  .transition.first {
+    background-image: url("../medias/images/mobile/fort-lalatte.jpg");
+  }
+  .transition.second {
+    background-image: url("../medias/images/mobile/cote.jpg");
+  }
+  .transition.third {
+    background-image: url("../medias/images/mobile/plage.jpg");
+
+
+ }
+
+
+ @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+
+  .transition.first {
+    background-image: url("../medias/images/tablet/fort-lalatte.jpg");
+  }
+  .transition.second {
+    background-image: url("../medias/images/tablet/cote.jpg");
+  }
+  .transition.third {
+    background-image: url("../medias/images/tablet/plage.jpg");
+
+  } 
+
 /*----------------------------------------------------------Introduction-----------------------------------------------------*/
 
 .top-container {
