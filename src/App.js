@@ -8,27 +8,19 @@ import PortfolioComponent from "./components/portfolio/PortfolioComponent";
 
 import Transition from "./components/common/Transition";
 import Solution from "./components/solution/Solution";
-import Offer from "./components/offer/Offer";
+//import Offer from "./components/offer/Offer";
 import SkillsComponent from "./components/skills/SkillsComponent";
 
-
-
 function App() {
-
-
-
-
-
   return (
     <div className="App">
-
       <Fade>
         <Introduction />
-        <Solution/>
+        <Solution />
         <Transition nb={"first"} />
         {/**<Offer/>
         <Transition nb={"second"} />*/}
-        <SkillsComponent/>
+        <SkillsComponent />
         <Transition nb={"second"} />
         <PortfolioComponent />
         <Transition nb={"third"} />
